@@ -1,0 +1,207 @@
+<template>
+  <v-container
+    justify="center"
+    align="center"
+    align-content="center"
+    class="ma-0 pa-0 blue darken-4"
+    width="50vh"
+    fluid
+  >
+    <v-row justify="center" align="center" align-content="center" class="ma-0 pa-0">
+      <v-col
+        cols="12"
+        class="ma-0 pa-1"
+        justify="center"
+        align="center"
+        align-content="center"
+      >
+        <v-card
+          class="text-left ma-0 pa-0"
+          justify="center"
+          align="center"
+          align-content="center"
+        >
+          <v-card-title class="text-left blue darken-4">
+            <div class="text-left headline white--text button">
+              TENFORWARD<span>INTERNATIONAL</span>
+              <span class="black--text">G R O U P</span>
+            </div>
+          </v-card-title>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row justify="center" align-content="center" align="center" class="pa-2 ma-0">
+      <v-col
+        align-self="center"
+        cols="12"
+        justify="center"
+        align-content="center"
+        align="center"
+        class="pa-0 ma-0"
+      >
+        <v-img src="icon.png" width="50%" class="text-right" />
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col>
+        <v-list align="center" justify="center" align-content="center" class="ma-0 pa-0">
+          <v-list-item
+            align="center"
+            justify="center"
+            align-content="center"
+            class="ma-0 pa-0"
+          >
+            <v-list-item-title
+              align="center"
+              justify="center"
+              align-content="center"
+              class="white--text ma-0 pa-0"
+            >
+              CONTACT US
+            </v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-col>
+    </v-row>
+
+    <v-row justify="center" align="center" align-content="center" class="ma-0 pa-0">
+      <v-col
+        cols="12"
+        class="ma-0"
+        justify="center"
+        align="center"
+        align-content="center"
+      >
+        <v-card
+          class="text-left ma-0 pa-0"
+          justify="center"
+          align="center"
+          align-content="center"
+        >
+          <v-list
+            class="pa-0 ma-0 red--text text--darken-4"
+            justify="center"
+            align="center"
+            align-content="center"
+          >
+            <v-expand-transition>
+              <v-list-item
+                v-if="hover"
+                class="d-flex transition-fast-in-fast-out orange darken-2 v-card--reveal text-h2 white--text"
+                style="height: 100%"
+              >
+                <v-list-item-action class="pa-0 ma-0">
+                  <v-icon class="indigo--text"> mdi-phone </v-icon>
+                </v-list-item-action>
+
+                <v-list-item-content>
+                  <v-list-item-title class="indigo--text text-button">
+                    543382596
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </v-expand-transition>
+            <v-divider inset />
+
+            <v-list-item class="pa-0 ma-0">
+              <v-list-item-action class="pa-0 ma-0">
+                <v-icon class="indigo--text"> mdi-phone </v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title class="indigo--text text-button">
+                  591938431
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-divider inset />
+
+            <v-list-item class="pa-0 ma-0">
+              <v-list-item-action class="pa-0 ma-0">
+                <v-icon class="indigo--text"> mdi-phone </v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title class="indigo--text text-button">
+                  594172956
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-divider inset />
+
+            <v-list-item class="pa-0 ma-0">
+              <v-list-item-action class="pa-0 ma-0">
+                <v-icon class="indigo--text"> mdi-phone </v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title class="indigo--text text-button">
+                  243021218
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-divider inset />
+            <v-list-item class="pa-0 ma-0">
+              <v-list-item-action class="pa-0 ma-0">
+                <v-icon class="indigo--text"> mdi-phone </v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title class="indigo--text text-button hov">
+                  573134701
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <v-divider inset />
+
+            <v-list-item class="pa-0 ma-0">
+              <v-list-item-action class="pa-0 ma-0">
+                <v-icon class="indigo--text"> mdi-email </v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title class="indigo--text text-caption">
+                  info@tenforwardgroup.com
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </v-card>
+      </v-col>
+      <v-spacer />
+    </v-row>
+    <v-row justify="center" align-content="center" align="center" class="pa-2 ma-0">
+      <v-col>
+        <v-list align="center" justify="center" align-content="center" class="ma-0 pa-0">
+          <v-list-item
+            align="center"
+            justify="center"
+            align-content="center"
+            class="ma-0 pa-0"
+          >
+            <v-list-item-title
+              align="center"
+              justify="center"
+              align-content="center"
+              class="blue--text text--darken-4 ma-0 pa-0"
+            >
+              TFI
+            </v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+<script>
+export default {
+  data() {
+    return {
+      dialog: false,
+    };
+  }
+</script>
